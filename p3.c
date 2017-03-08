@@ -28,7 +28,7 @@ int main(void)
 		d = peekb(segment,offset);		/*Leyendo dato*/
 		if( d != data1)
 		{
-			putchat(' ');
+			putchar(' ');
 			putchar('F');	/*Error*/
 			while(1){}
 		}
